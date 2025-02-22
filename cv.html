@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generated CV</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="cv-container">
+        <div class="box">
+            <div id="cv">
+                <h1 id="cv-name"></h1>
+                <p><strong>Email:</strong> <span id="cv-email"></span></p>
+                <p><strong>Phone:</strong> <span id="cv-phone"></span></p>
+                <p><strong>Address:</strong> <span id="cv-address"></span></p>
+                <h2>Profile</h2>
+                <p id="cv-summary"></p>
+                <h2>Work Experience</h2>
+                <p id="cv-experience"></p>
+                <h2>Education</h2>
+                <p id="cv-education"></p>
+                <h2>Skills</h2>
+                <p id="cv-skills"></p>
+            </div>
+            <button onclick="downloadImage()">Download as Image</button>
+        </div>
+    </div>
+
+    <script src="cv-script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+</body>
+
+</html>
