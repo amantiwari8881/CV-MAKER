@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    padding: 20px;
+    background: #ffffff;
+  }
+  /* .cv-container {
+   
+    max-width: 800px;
+    background: #ffffff;
+    padding: 50px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  } */
+  .cv-container {
+    width: 793px; /* A4 width */
+    height: 1122px; /* A4 height */
+    background: #c99696;
+    padding: 50px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(218, 182, 182, 0.1);
+    text-align: left;
+    position: relative;
+  }
+  .box {
+    height: 1050px;
+    background-color: #ffffff;
+    border-style: double;
+    border-radius: 5px;
+    border-width: 10px;
+    padding: 5px 15px 50px 15px;
+    
+  }
+  
+  h1 {
+    color: #000000;
+    text-align: left;
+    font-weight: 900;
+    font-size: xx-large;
+    
+  }
+  h2 {
+    color: #ffffff;
+    text-align: left;
+    background-color: black;
+    padding: 5px;
+    border-radius: 15px;
+  }
+  button {
+    background: #341077;
+    color: rgb(17, 219, 17);
+    padding: 20px;
+    border: none;
+    cursor: pointer;
+    display: block;
+    width: auto;
+    border-radius: 50px;
+    display: block;
+    margin: auto;
+  }
+  
+  button:hover {
+    background: #df387d;
+  }
+#cv-summary {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  width: 100%;
+}
+#cv-experience {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  width: 100%;
+}
+#cv-education {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  width: 100%;
+}
+#cv-skills {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  width: 100%;
+}
+#cv {
+  justify-content: space-between;
+    flex-direction: column;
+    display: flex;
+    height: 100%;
+}
